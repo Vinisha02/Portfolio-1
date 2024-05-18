@@ -1,0 +1,68 @@
+.Education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+  }
+  
+  .education-title {
+    position: relative;
+  }
+  
+  .education-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+  }
+  
+  .education-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .education-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align all details to the left */
+    gap: 40px; /* Adjust the gap between items */
+  }
+  
+  .college-details,
+  .school-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center align items vertically */
+    gap: 20px; /* Gap between logo and details */
+  }
+  
+  .education-logo {
+    height: 130px;
+    width: 130px; /* Adjust width to match height for uniformity */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .education-logo:hover {
+    transform: scale(1.1); /* Scale up the logo on hover */
+  }
+  
+  .education-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+  }
+  
+  .school-name,
+  .degree {
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .school-name:hover,
+  .degree:hover {
+    color: #007BFF; /* Change color on hover */
+  }
+  
